@@ -62,6 +62,7 @@ body {
     color: rgb(49, 47, 47);
     margin-left: 20px;
     padding: 20px;
+    border-radius: 5px;
 }
 
 .primary-amount {
@@ -72,6 +73,48 @@ body {
     background-color: rgb(252, 220, 220);
     padding: 20px 30px;
     border: 2px solid rgb(255, 133, 34);
+    border-radius: 5px;
+}
+
+.donate-now-button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.donate-now-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(255, 72, 0);
+    padding: 10px 20px;
+
 }
 
 /* <!-- Donation Today End --> */
+
+/* <!-- Donation Plan Start --> */
+
+.donation-plan-content {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.donation-plan-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.donation-plan-content p {
+    margin: 0 280px;
+}
+
+/* <!-- Donation Plan End --> */
+
+/* Footer start  */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* Footer End  */
