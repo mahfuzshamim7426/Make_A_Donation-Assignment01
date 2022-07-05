@@ -40,3 +40,38 @@ body {
 }
 
 /* <!-- Cover Section End --> */
+
+/* <!-- Donation Today Start --> */
+.donate-content {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.donate-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.donate-amount {
+    display: flex;
+    justify-content: center;
+}
+
+.donate-amount-count {
+    background-color: rgb(248, 245, 245);
+    color: rgb(49, 47, 47);
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.primary-amount {
+    padding: 20px 30px;
+}
+
+.still-amount {
+    background-color: rgb(252, 220, 220);
+    padding: 20px 30px;
+    border: 2px solid rgb(255, 133, 34);
+}
+
+/* <!-- Donation Today End --> */
