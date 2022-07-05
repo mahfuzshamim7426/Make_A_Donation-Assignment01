@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    margin-top: -50px;
+    padding: 0px;
+}
+
+/* <!--Cover Section Start --> */
+
+.header-section {
+    height: 500px;
+    background-image: url(img/cover01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+
+.header-content {
+    text-align: center;
+    padding-top: 140px;
+}
+
+.header-content h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.header-content p {
+    color: white;
+
+}
+
+.header-content a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(255, 72, 0);
+    padding: 10px 20px;
+}
+
+/* <!-- Cover Section End --> */
