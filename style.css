@@ -135,24 +135,25 @@ body {
 .donation-item {
     display: flex;
     justify-content: space-between;
+    margin: 0 5px;
+}
+
+.single-plan {
+    flex: 1;
+    margin: 10px;
+    padding: 10px 15px;
 }
 
 .donation-item-food {
-    background-color: rgb(207, 66, 66);
-    padding: 10px 15px;
+    background-color: rgb(255, 214, 214);
 }
 
 .donation-item-family {
-    background-color: rgb(224, 236, 55);
-    padding: 10px 15px;
-
-
+    background-color: rgb(238, 243, 172);
 }
 
 .donation-item-education {
-    background-color: rgb(30, 245, 216);
-    padding: 10px 15px;
-
+    background-color: rgb(214, 253, 248);
 }
 
 .food-icon img {
@@ -173,8 +174,15 @@ body {
 
 .helping-hand-block {
     display: flex;
+    margin-top: 70px;
 }
 
+.helping-hand-header {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 50%;
+    margin-top: 35px;
+}
 
 .helping-hand-header h2 {
     font-size: 36px;
@@ -198,6 +206,10 @@ body {
     padding: 10px 20px;
 }
 
+.helping-hand-image {
+    width: 50%;
+}
+
 .helping-hand-image img {
     width: 100%;
 }
@@ -206,7 +218,34 @@ body {
 
 
 /* =========<!-- Subscription Section Start -->====== */
+.subscription-body {
+    background-color: rgb(255, 244, 180);
+    padding: 56px 0px;
+    margin: 27px 245px;
+}
 
+.email-submission {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.subscription-email input {
+
+    background-color: rgb(223, 222, 222);
+    border: none;
+    padding: 5px 10px;
+
+}
+
+.subscription-button input {
+    color: #fff;
+    background-color: rgb(255, 72, 0);
+    border: none;
+    padding: 5px 10px;
+
+}
 
 /*========= <!-- Subscription Section End -->======= */
 
