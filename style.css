@@ -4,6 +4,11 @@ body {
     padding: 0px;
 }
 
+.container {
+    padding: 0 120px;
+    background-color: #fff;
+}
+
 /* <!--Cover Section Start --> */
 
 .header-section {
@@ -42,25 +47,41 @@ body {
 /* <!-- Cover Section End --> */
 
 /* <!-- Donation Today Start --> */
-.donate-content {
+.donate-section {
+    margin-top: 50px;
+}
+
+.section-header {
     text-align: center;
     padding-top: 50px;
 }
 
-.donate-content h1 {
-    font-size: 50px;
+.section-header h2 {
+    font-size: 36px;
     font-weight: 700;
+    margin: 0;
+}
+
+.section-header p {
+    margin: 18px 0;
+    padding: 0 265px;
+    font-size: 15px;
+    color: #8d8989;
+    line-height: 24px;
+}
+
+.donate-content {
+    padding: 0 200px;
 }
 
 .donate-amount {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .donate-amount-count {
     background-color: rgb(248, 245, 245);
     color: rgb(49, 47, 47);
-    margin-left: 20px;
     padding: 20px;
     border-radius: 5px;
 }
@@ -78,7 +99,7 @@ body {
 
 .donate-now-button {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 38px;
 }
 
 .donate-now-button a {
@@ -90,31 +111,118 @@ body {
 
 }
 
-/* <!-- Donation Today End --> */
-
-/* <!-- Donation Plan Start --> */
-
-.donation-plan-content {
+.other-amount {
+    border-bottom: 1px solid rgb(224, 224, 224);
+    margin-top: 20px;
     text-align: center;
-    padding-top: 80px;
+    padding: 5px 0;
 }
 
-.donation-plan-content h1 {
-    font-size: 50px;
+.other-amount input {
+    border: none;
+    margin-left: 48px;
+}
+
+/* ========<!-- Donation Today End --> ========*/
+
+
+/* =======<!-- Donation Plan Start -->========== */
+
+.donation-plan {
+    margin-top: 50px;
+}
+
+.donation-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donation-item-food {
+    background-color: rgb(207, 66, 66);
+    padding: 10px 15px;
+}
+
+.donation-item-family {
+    background-color: rgb(224, 236, 55);
+    padding: 10px 15px;
+
+
+}
+
+.donation-item-education {
+    background-color: rgb(30, 245, 216);
+    padding: 10px 15px;
+
+}
+
+.food-icon img {
+    height: 60px;
+    width: 61px;
+}
+
+
+
+/* ============<!-- Donation Plan End --> ==============*/
+
+
+/*=============== <!-- Helping Hand Start -->============== */
+
+.helping-hand {
+    margin: 100px 0;
+}
+
+.helping-hand-block {
+    display: flex;
+}
+
+
+.helping-hand-header h2 {
+    font-size: 36px;
     font-weight: 700;
+    margin: 0;
 }
 
-.donation-plan-content p {
-    margin: 0 280px;
+.helping-hand-header p {
+    margin: 18px 0;
+    padding: 0 0px;
+    font-size: 15px;
+    color: #8d8989;
+    line-height: 24px;
 }
 
-/* <!-- Donation Plan End --> */
+.helping-hand-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(255, 72, 0);
+    padding: 10px 20px;
+}
+
+.helping-hand-image img {
+    width: 100%;
+}
+
+/*===============<!-- Helping Hand Start -->=============== */
+
+
+/* =========<!-- Subscription Section Start -->====== */
+
+
+/*========= <!-- Subscription Section End -->======= */
+
 
 /* Footer start  */
 .footer {
     background-color: black;
     color: white;
     text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer h1 {
+    margin: 0;
 }
 
 /* Footer End  */
