@@ -172,30 +172,58 @@ body {
     margin: 100px 0;
 }
 
-.helping-hand-block {
+.helping-hand .block-left {
     display: flex;
     margin-top: 70px;
 }
 
-.helping-hand-header {
-    margin-left: 40px;
-    margin-right: 40px;
+.block-left .helping-hand-header {
     width: 50%;
-    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 40px;
+}
+
+
+.helping-hand .block-right {
+    display: flex;
+    margin-top: 70px;
+}
+
+.block-right .helping-hand-header {
+    /* margin-left: 40px; */
+    /* margin-right: 40px; */
+    width: 50%;
+    /* margin-top: 35px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
 }
 
 .helping-hand-header h2 {
     font-size: 36px;
     font-weight: 700;
     margin: 0;
+    margin-bottom: 10px;
+    line-height: 42px;
 }
 
 .helping-hand-header p {
-    margin: 18px 0;
+    margin: 0;
     padding: 0 0px;
     font-size: 15px;
     color: #8d8989;
     line-height: 24px;
+}
+
+.helping-hand-header .custom-para {
+    margin-top: 11px;
+}
+
+.helping-hand-button {
+    margin-top: 25px;
 }
 
 .helping-hand-button a {
