@@ -277,6 +277,41 @@ body {
 
 /*========= <!-- Subscription Section End -->======= */
 
+/* =========up coming Event Start ==============*/
+.event-section {
+    margin: 60px 0;
+    border-left: 5px solid rgb(255, 72, 0);
+    box-shadow: 5px 5px 23px #efba96;
+    padding: 15px 18px;
+}
+}
+
+.event-header {
+    text-align: left;
+    padding-top: 50px;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.event-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-button {
+    margin-top: 20px;
+}
+
+.event-button a {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(255, 72, 0);
+    padding: 5px 10px;
+}
+
+/* ===========up coming Event End============= */
+
 
 /* Footer start  */
 .footer {
@@ -288,8 +323,27 @@ body {
 
 }
 
-.footer h1 {
+.footer-element {
     margin: 0;
+    padding: 0;
+    line-height: 25px;
+}
+
+.footer-element h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0px 0 16px 0;
+    padding-top: 21px;
+}
+
+.footer-element p {
+    padding: 5px;
+    margin: 0;
+}
+
+.proprietor {
+    color: rgb(255, 72, 0);
+    ;
 }
 
 /* Footer End  */
