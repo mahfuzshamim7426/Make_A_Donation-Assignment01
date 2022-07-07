@@ -250,12 +250,11 @@ body {
     margin: 60px 0;
     border-left: 5px solid rgb(255, 72, 0);
     box-shadow: 5px 5px 23px #efba96;
-    padding: 15px 18px;
+    padding: 40px 18px;
 }
 
 .event-header {
     text-align: left;
-    padding-top: 50px;
     font-size: 36px;
     font-weight: 700;
     margin: 0;
@@ -281,7 +280,7 @@ body {
 
 
 
-/* =========<!-- Subscription Section Start -->====== */
+/* =========<Subscription Section Start====== */
 .subscription-body {
     background-color: rgb(255, 244, 180);
     padding: 56px 0px;
@@ -299,7 +298,7 @@ body {
 
     background-color: rgb(223, 222, 222);
     border: none;
-    padding: 5px 10px;
+    padding: 8px 10px;
 
 }
 
@@ -307,11 +306,11 @@ body {
     color: #fff;
     background-color: rgb(255, 72, 0);
     border: none;
-    padding: 5px 10px;
+    padding: 8px 10px;
 
 }
 
-/*========= <!-- Subscription Section End -->======= */
+/*=========  Subscription Section End======= */
 
 
 /* Footer start  */
@@ -319,9 +318,7 @@ body {
     background-color: black;
     color: white;
     text-align: center;
-    margin: 0;
-    padding: 0;
-
+    margin-top: 80px;
 }
 
 .footer-element {
