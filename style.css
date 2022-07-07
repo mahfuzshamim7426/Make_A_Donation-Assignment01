@@ -245,6 +245,43 @@ body {
 /*===============<!-- Helping Hand Start -->=============== */
 
 
+/* =========up coming Event Start ==============*/
+#event-section {
+    margin: 60px 0;
+    border-left: 5px solid rgb(255, 72, 0);
+    box-shadow: 5px 5px 23px #efba96;
+    padding: 15px 18px;
+}
+}
+
+.event-header {
+    text-align: left;
+    padding-top: 50px;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#event-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-button {
+    margin-top: 20px;
+}
+
+.event-button a {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(255, 72, 0);
+    padding: 5px 10px;
+}
+
+/* ===========up coming Event End============= */
+
+
+
 /* =========<!-- Subscription Section Start -->====== */
 .subscription-body {
     background-color: rgb(255, 244, 180);
@@ -276,41 +313,6 @@ body {
 }
 
 /*========= <!-- Subscription Section End -->======= */
-
-/* =========up coming Event Start ==============*/
-.event-section {
-    margin: 60px 0;
-    border-left: 5px solid rgb(255, 72, 0);
-    box-shadow: 5px 5px 23px #efba96;
-    padding: 15px 18px;
-}
-}
-
-.event-header {
-    text-align: left;
-    padding-top: 50px;
-    font-size: 36px;
-    font-weight: 700;
-    margin: 0;
-}
-
-.event-content {
-    display: flex;
-    justify-content: space-between;
-}
-
-.event-button {
-    margin-top: 20px;
-}
-
-.event-button a {
-    text-decoration: none;
-    color: #fff;
-    background-color: rgb(255, 72, 0);
-    padding: 5px 10px;
-}
-
-/* ===========up coming Event End============= */
 
 
 /* Footer start  */
